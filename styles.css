@@ -1,3 +1,4 @@
+/* Default styles */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -7,37 +8,12 @@ body {
     color: #333;
 }
 
-h1, h2, h3 {
-    color: #004a8d; /* Navy blue color for headings */
-}
-
-h1 {
-    margin-bottom: 20px;
-}
-
-p {
-    margin-bottom: 20px;
-}
-
-a {
-    color: #007bff; /* Blue links */
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
+/* Header styles */
 header.hero {
     background-color: #007bff; /* Blue background for hero */
     color: #fff;
     padding: 20px 0;
     text-align: center;
-}
-
-.hero-content {
-    max-width: 800px;
-    margin: 0 auto;
 }
 
 .hero-logo {
@@ -65,6 +41,7 @@ header.hero {
     font-weight: bold;
 }
 
+/* Main content styles */
 section#content {
     max-width: 800px;
     margin: 20px auto;
@@ -74,44 +51,27 @@ section#content {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-table.offerings-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-bottom: 20px;
+/* Responsive styles */
+@media only screen and (max-width: 768px) {
+    /* Adjustments for tablets and smaller screens */
+    .hero-logo {
+        max-width: 150px;
+    }
+
+    /* Reduce padding and font size for smaller screens */
+    section#content {
+        padding: 10px;
+    }
 }
 
-table.offerings-table th, table.offerings-table td {
-    border: 1px solid #ddd;
-    padding: 8px;
-}
+@media only screen and (max-width: 480px) {
+    /* Adjustments for phones */
+    .hero-logo {
+        max-width: 120px;
+    }
 
-table.offerings-table th {
-    background-color: #f2f2f2;
-}
-
-ul.industries-list {
-    list-style-type: none;
-    margin-left: 0;
-    padding-left: 0;
-}
-
-ul.industries-list li {
-    margin-bottom: 10px;
-}
-
-ul.insights-list {
-    list-style-type: none;
-    margin-left: 0;
-    padding-left: 0;
-}
-
-ul.insights-list li {
-    margin-bottom: 10px;
-}
-
-img.hero-image {
-    display: block;
-    margin: 0 auto 20px; /* Center the image and add bottom margin */
-    max-width: 100%;
-    height: auto;
+    /* Further reduce padding and font size for smaller screens */
+    section#content {
+        padding: 5px;
+    }
 }
