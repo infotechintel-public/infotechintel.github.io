@@ -1,0 +1,15 @@
+services:
+  - name: Strategic IT Consulting
+    description: Align tech strategies, optimize infrastructure, evaluate emerging tech, and implement transformative initiatives.
+  - name: Software Development
+    description: Customized solutions for web, mobile, enterprise, and e-commerce. Enhance productivity and drive innovation.
+  - name: IT Infrastructure Design & Implementation
+    description: Design and implement robust and scalable IT infrastructures. Ensure seamless integration and maximum security.
+  - name: Systems Integration & Data Management
+    description: Integrate systems, ensure data flow, and provide advanced data management solutions.
+  - name: Cybersecurity Solutions
+    description: Comprehensive services including threat assessment, vulnerability management, network security, and identity management.
+  - name: Managed IT Services
+    description: Proactive monitoring, remote support, system maintenance, and help desk services. Optimize IT investments.
+  - name: Software Maintenance & Support
+    description: Timely updates, bug fixes, performance enhancements, and user support.

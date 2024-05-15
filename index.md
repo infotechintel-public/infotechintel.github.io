@@ -1,37 +1,23 @@
 ---
-title: Infotechintel
+layout: default
+title: Home
 ---
 
-<link rel="stylesheet" type="text/css" href="styles.css">
-
-![Infotechintel Logo](logo.png)
-
-# Welcome to Infotechintel
+<p id="greeting"></p>
 
 Welcome to Infotechintel, the leading provider of IT consulting and servicing solutions. We deliver innovative technology strategies, seamless operations, and exceptional service. Our experts empower businesses with tailored solutions for efficiency, productivity, and competitive advantage.
 
+<button id="toggle-button">Toggle More Info</button>
+<div id="toggle-section" style="display: none;">
+    <p>Here is some additional information that can be toggled on and off.</p>
+</div>
+
 ## Offerings
 
-### Strategic IT Consulting
-- Align tech strategies, optimize infrastructure, evaluate emerging tech, and implement transformative initiatives.
-
-### Software Development
-- Customized solutions for web, mobile, enterprise, and e-commerce. Enhance productivity and drive innovation.
-
-### IT Infrastructure Design & Implementation
-- Design and implement robust and scalable IT infrastructures. Ensure seamless integration and maximum security.
-
-### Systems Integration & Data Management
-- Integrate systems, ensure data flow, and provide advanced data management solutions.
-
-### Cybersecurity Solutions
-- Comprehensive services including threat assessment, vulnerability management, network security, and identity management.
-
-### Managed IT Services
-- Proactive monitoring, remote support, system maintenance, and help desk services. Optimize IT investments.
-
-### Software Maintenance & Support
-- Timely updates, bug fixes, performance enhancements, and user support.
+{% for service in site.data.services.services %}
+### {{ service.name }}
+- {{ service.description }}
+{% endfor %}
 
 ## Industries
 

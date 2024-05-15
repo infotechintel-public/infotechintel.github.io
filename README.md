@@ -1,2 +1,1 @@
-# infotechintel.github.io
 Infotechintel
