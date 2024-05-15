@@ -9,7 +9,10 @@ Welcome to Infotechintel, the leading provider of IT consulting and servicing so
 
 <button id="toggle-button">Toggle More Info</button>
 <div id="toggle-section" style="display: none;">
-    <p>Here is some additional information that can be toggled on and off.</p>
+    <p>Infotechintel has been at the forefront of IT innovation for over a decade. Our commitment to excellence and customer satisfaction has earned us a reputation as a trusted partner for businesses worldwide.</p>
+    <p>Our services include comprehensive IT solutions tailored to meet the unique needs of each client. From strategic consulting to software development and infrastructure design, we ensure that your technology investments drive real business results.</p>
+    <p>Our team of experts stays abreast of the latest technological advancements to provide forward-thinking solutions that keep your business competitive in a rapidly evolving marketplace.</p>
+    <p>At Infotechintel, we believe in a client-centric approach, ensuring that our solutions align perfectly with your business objectives. Our success stories span various industries, including finance, healthcare, retail, and more, showcasing our versatility and commitment to delivering outstanding results.</p>
 </div>
 
 ## Offerings
