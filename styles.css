@@ -3,9 +3,6 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 20px;
     background-color: #f0f8ff; /* Light blue background */
     color: #333;
 }
@@ -33,14 +30,55 @@ a:hover {
     text-decoration: underline;
 }
 
-img {
+header.hero {
+    background-color: #1e90ff; /* Blue background for hero */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero-logo {
     display: block;
     margin: 0 auto 20px; /* Center the logo and add bottom margin */
-    max-width: 100%;
+    max-width: 100px;
     height: auto;
 }
 
-header {
-    text-align: center;
-    margin-bottom: 40px;
+.hero-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.hero-nav ul li {
+    display: inline;
+}
+
+.hero-nav ul li a {
+    color: #fff;
+    font-weight: bold;
+}
+
+section#content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff; /* White background for main content */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#toggle-section {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #e6f7ff; /* Light blue background for toggle section */
+    border-left: 4px solid #1e90ff; /* Blue border on the left */
 }
